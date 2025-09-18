@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza rendeles Formok</title>
+</head>
+<body>
+    <h1>pizda rendelő ürlap</h1>
+
+    <form>
+        <label>
+            <input type="text" name="name" placeholder="Név" maxlength="20">
+        </label>
+
+        <label> Telefonszám:
+                <input type="tel" name="phone" placeholder="+36202258046" maxlength="50" required>
+        </label>
+        <br>
+
+        <label> E-mail:
+                <input type="tel" name="E-mail" placeholder="feri@gmail.com" maxlength="25" required>
+        </label>
+
+        <br>
+            <fieldset>
+        <legend>Pizza méret</legend>
+        <label>
+            <input type="radio" name="size" value="kicsi" required> Kicsi
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="size" value="közepes" required> közepes
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="size" value="nagy" required> nagy
+        </label>
+        </fieldset>
+
+            <fieldset>
+        <legend>Feltétek</legend>
+        <label>
+            <input type="checkbox" name="feltet" required> Mozzarella sajt
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="feltet" required> feta sajt
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="feltet" required> kukorica
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="feltet" required> bacon
+        </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Megjegyzés</legend>
+            <textarea name="megyjegyzés" id="Megjegyzes_mezo" maxlength="200" placeholder="ide írhatod a megjegyzésed"></textarea>
+        </fieldset>
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
