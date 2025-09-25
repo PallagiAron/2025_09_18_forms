@@ -11,3 +11,6 @@ form{
 label{
     display: block;
 }
+body{
+    background-color: crimson;
+}
