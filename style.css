@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     color: rgb(178, 176, 176);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 form{
@@ -11,6 +12,10 @@ form{
 label{
     display: block;
 }
-body{
-    background-color: crimson;
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f3e9;
+    padding: 40px;
+    color: #333;
 }
