@@ -1,0 +1,15 @@
+form{
+    max-width: 500px;
+    padding: 15px;
+}
+
+label{
+    display: block;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f3e9;
+    padding: 40px;
+    color: #333;
+}
